@@ -12,12 +12,25 @@ public class OlaDeTexto : MonoBehaviour
     private TMP_Text textoTMP;
     private Vector3[] vertices;
     private TMP_TextInfo textInfo;
+    private Coroutine olaCoroutine;
 
-    void Start()
+    void Awake()
     {
         textoTMP = GetComponent<TMP_Text>();
+    }
+
+    void OnEnable()
+    {
         textoTMP.ForceMeshUpdate();
-        StartCoroutine(AnimarOla());
+        olaCoroutine = StartCoroutine(AnimarOla());
+    }
+
+    void OnDisable()
+    {
+        if (olaCoroutine != null)
+        {
+            StopCoroutine(olaCoroutine);
+        }
     }
 
     IEnumerator AnimarOla()

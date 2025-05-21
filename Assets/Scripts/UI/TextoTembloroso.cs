@@ -6,13 +6,14 @@ using UnityEngine.UI;
 public class TextoTemblorosoConSonido : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     public AudioClip clickClip;
-    public AudioClip chooseSound;  // Sonido para OnPointerEnter
+    public AudioClip seleccion;  // Nuevo sonido para OnPointerEnter
 
     private RectTransform rectTransform;
     private Vector2 originalPosition;
     private bool isShaking = false;
     private Button button;
-    private AudioSource audioSource;  // AudioSource para reproducir chooseSound
+    private AudioSource audioSource;
+    private bool hasPlayedSeleccionSound = false;
 
     void Awake()
     {
@@ -20,8 +21,8 @@ public class TextoTemblorosoConSonido : MonoBehaviour, IPointerEnterHandler, IPo
         originalPosition = rectTransform.anchoredPosition;
         button = GetComponent<Button>();
 
-        audioSource = gameObject.AddComponent<AudioSource>(); // Añade AudioSource al GameObject
-        audioSource.volume = 0.2f; // Ajusta volumen aquí
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.volume = 0.2f;
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -29,10 +30,11 @@ public class TextoTemblorosoConSonido : MonoBehaviour, IPointerEnterHandler, IPo
         isShaking = true;
         StartCoroutine(Temblar());
 
-        if (chooseSound != null)
+        if (!hasPlayedSeleccionSound && seleccion != null)
         {
-            audioSource.clip = chooseSound;
+            audioSource.clip = seleccion;
             audioSource.Play();
+            hasPlayedSeleccionSound = true;
         }
     }
 
@@ -40,6 +42,7 @@ public class TextoTemblorosoConSonido : MonoBehaviour, IPointerEnterHandler, IPo
     {
         isShaking = false;
         rectTransform.anchoredPosition = originalPosition;
+        hasPlayedSeleccionSound = false;
     }
 
     public void OnPointerClick(PointerEventData eventData)
