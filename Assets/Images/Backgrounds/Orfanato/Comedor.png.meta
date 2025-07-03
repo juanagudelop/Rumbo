@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Comedor_0: -5326253720710200404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

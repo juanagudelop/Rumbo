@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      vida-fondo negro_0: -7104324084684362815
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
