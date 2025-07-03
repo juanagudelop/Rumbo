@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c426cf9475bd1d24d8f8f866df9c3cf2
+guid: 26303b4679761704ab8cd628ed7a749e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8412053068105918987
-    second: Ventana_0
+      213: -5111368081018862155
+    second: fuera de la casa_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ventana_0
+      name: fuera de la casa_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 129
-        width: 422
-        height: 212
+        x: 0
+        y: 0
+        width: 11580
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f5dfc3bd42624b80800000000000000
-      internalID: -8412053068105918987
+      spriteID: 5b5c99ebfc5c019b0800000000000000
+      internalID: -5111368081018862155
       vertices: []
       indices: 
       edges: []
