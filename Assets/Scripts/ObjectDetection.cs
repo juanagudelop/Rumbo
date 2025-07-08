@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ObjectDetection : MonoBehaviour
 {
-    public GameObject textPanel;
+    public GameObject panelDialogEnchufe;
     public Animator animator;
 
     public RandomEvent randomEvent;// Asigna esto desde el Inspector de Unity
@@ -10,7 +10,7 @@ public class ObjectDetection : MonoBehaviour
     void Start()
     {
          randomEvent = FindFirstObjectByType<RandomEvent>();
-        textPanel.SetActive(false);
+        panelDialogEnchufe.SetActive(false);
     }
 
     void OnTriggerEnter2D(Collider2D Collision)
@@ -19,7 +19,7 @@ public class ObjectDetection : MonoBehaviour
         if (Collision.CompareTag("enchufe"))
         {
             Debug.Log("Está cerca del enchufe");
-            textPanel.SetActive(true);
+            panelDialogEnchufe.SetActive(true);
         }
     }
     void OnTriggerExit2D(Collider2D Collision)
@@ -27,14 +27,14 @@ public class ObjectDetection : MonoBehaviour
         if (Collision.CompareTag("enchufe"))
         {
             Debug.Log("Está lejos del enchufe");
-            textPanel.SetActive(false);
+            panelDialogEnchufe.SetActive(false);
         }
     }
 
 
     void Update()
     {
-        if (textPanel.activeSelf && Input.GetKey(KeyCode.LeftControl))
+        if (panelDialogEnchufe.activeSelf && Input.GetKey(KeyCode.LeftControl))
         {
             animator.SetBool("isElectrocuted", true);
             randomEvent.DañoPorNoLimpiar();

@@ -8,6 +8,7 @@ TagManager:
   - PresionarTecla
   - Piso
   - barraVida
+  - enchufe
   layers:
   - Default
   - TransparentFX
