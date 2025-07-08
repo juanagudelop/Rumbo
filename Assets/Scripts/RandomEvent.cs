@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI; // Necesario para trabajar con UI Image
 
-public class BebeCacaSystem : MonoBehaviour
+public class RandomEvent : MonoBehaviour
 {
     [Header("Configuración")]
     [Tooltip("Tiempo entre posibles eventos de caca (segundos)")]
@@ -68,7 +68,7 @@ public class BebeCacaSystem : MonoBehaviour
         Debug.Log("¡El bebé se ha cagado! Necesita limpieza");
     }
 
-    void DañoPorNoLimpiar()
+    public void DañoPorNoLimpiar()
     {
         if (barraVidaImage != null)
         {

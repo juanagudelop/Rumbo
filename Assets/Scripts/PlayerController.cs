@@ -1,4 +1,5 @@
 using System;
+using NUnit.Framework.Constraints;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Video;
@@ -139,8 +140,5 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void electrocutarse()
-    {
-        
-    }
+    
 }
