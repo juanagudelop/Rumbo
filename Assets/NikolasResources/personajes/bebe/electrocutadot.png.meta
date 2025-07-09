@@ -622,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      electrocutadot_0: -3886762353706890305
+      electrocutadot_1: -6350297167245502642
+      electrocutadot_10: -5862653189429341985
+      electrocutadot_11: 4102899939077719264
+      electrocutadot_12: -1700401421252173798
+      electrocutadot_13: 1960715517181133585
+      electrocutadot_14: 4237609858077144615
+      electrocutadot_15: -2513123262215361526
+      electrocutadot_16: -6511990011421038389
+      electrocutadot_17: 6945150099160175098
+      electrocutadot_18: 8087511645723222070
+      electrocutadot_19: -91835956852875067
+      electrocutadot_2: -8502017498308098974
+      electrocutadot_3: 9035377735872326207
+      electrocutadot_4: 2694132776140381358
+      electrocutadot_5: -7300797594972398728
+      electrocutadot_6: -7062115401739229743
+      electrocutadot_7: 7277418355220578510
+      electrocutadot_8: 2402712301046025493
+      electrocutadot_9: 2241102367737628163
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
