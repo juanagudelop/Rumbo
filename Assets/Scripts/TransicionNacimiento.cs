@@ -15,6 +15,8 @@ public class TransicionNacimiento : MonoBehaviour
     public float duracionTransicionInicial = 2f;
     public float duracionTexto = 3f;
 
+    public float esperaAntesDeCambiarEscena = 5f;
+
     void Start()
     {
         pantallaNegra.alpha = 1;
@@ -61,6 +63,12 @@ public class TransicionNacimiento : MonoBehaviour
         }
 
         Debug.Log("Texto final activado. Estado: " + textoFinal.activeSelf);
+
+        // Espera adicional para que el jugador vea el texto final
+        yield return new WaitForSeconds(esperaAntesDeCambiarEscena);
+
+        // Cambia de escena (ajusta el nombre según el tuyo)
+        UnityEngine.SceneManagement.SceneManager.LoadScene("BebeGatea");
     }
 
     IEnumerator DesvanecerPantallaNegra(float duracion)

@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuPrincipal.unity
     guid: 5db53ae0810de2546882a9844772544d
   - enabled: 1
+    path: Assets/Scenes/JuegoNacer.unity
+    guid: b8925d1106f9bfa4a870d26155d19e63
+  - enabled: 1
     path: Assets/Scenes/nacimiento.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Nacimiento.unity
-    guid: ed40838966b93f340bc6e153c2d72f5d
+    path: Assets/Scenes/BebeGatea.unity
+    guid: 3abba33ae2a471848b538c9dab389a00
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
