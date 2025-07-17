@@ -9,3 +9,16 @@ sysinfo.txt
 *.csproj
 *.sln
 *.user
+
+# Archivos personales del editor Unity (layouts, settings, etc.)
+UserSettings/
+*.dwlt
+*.layout
+*.prefs
+
+# Visual Studio Code
+.vscode/
+
+# Otros archivos ocultos o inútiles
+.DS_Store
+Thumbs.db
