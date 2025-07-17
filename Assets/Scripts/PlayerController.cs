@@ -1,4 +1,5 @@
 using System;
+using NUnit.Framework.Constraints;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Video;
@@ -45,7 +46,7 @@ public class PlayerController : MonoBehaviour
             Jump();
         }
 
-        animator.SetBool("recibeDanio", isReceivingDamage);
+        // animator.SetBool("recibeDanio", isReceivingDamage);
         Cry();
     }
 
@@ -134,8 +135,10 @@ public class PlayerController : MonoBehaviour
         int numeroAleatorio = UnityEngine.Random.Range(1, 10); // Genera un número entre 1 y 9
         Debug.Log("Número aleatorio entero: " + numeroAleatorio);
         if (numCagar == numeroAleatorio)
-        { 
-            
+        {
+
         }
     }
+
+    
 }

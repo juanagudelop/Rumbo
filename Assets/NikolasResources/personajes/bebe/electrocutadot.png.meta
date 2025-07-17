@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: a945c302ec738de4c83b5910aab21398
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3886762353706890305
+    second: electrocutadot_0
+  - first:
+      213: -6350297167245502642
+    second: electrocutadot_1
+  - first:
+      213: -8502017498308098974
+    second: electrocutadot_2
+  - first:
+      213: 9035377735872326207
+    second: electrocutadot_3
+  - first:
+      213: 2694132776140381358
+    second: electrocutadot_4
+  - first:
+      213: -7300797594972398728
+    second: electrocutadot_5
+  - first:
+      213: -7062115401739229743
+    second: electrocutadot_6
+  - first:
+      213: 7277418355220578510
+    second: electrocutadot_7
+  - first:
+      213: 2402712301046025493
+    second: electrocutadot_8
+  - first:
+      213: 2241102367737628163
+    second: electrocutadot_9
+  - first:
+      213: -5862653189429341985
+    second: electrocutadot_10
+  - first:
+      213: 4102899939077719264
+    second: electrocutadot_11
+  - first:
+      213: -1700401421252173798
+    second: electrocutadot_12
+  - first:
+      213: 1960715517181133585
+    second: electrocutadot_13
+  - first:
+      213: 4237609858077144615
+    second: electrocutadot_14
+  - first:
+      213: -2513123262215361526
+    second: electrocutadot_15
+  - first:
+      213: -6511990011421038389
+    second: electrocutadot_16
+  - first:
+      213: 6945150099160175098
+    second: electrocutadot_17
+  - first:
+      213: 8087511645723222070
+    second: electrocutadot_18
+  - first:
+      213: -91835956852875067
+    second: electrocutadot_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: electrocutadot_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 5
+        width: 112
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb80f47b327f0ac0800000000000000
+      internalID: -3886762353706890305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_1
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 5
+        width: 142
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4799282f563fd7a0800000000000000
+      internalID: -6350297167245502642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_2
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 5
+        width: 133
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264c0338124c20a80800000000000000
+      internalID: -8502017498308098974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_3
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 5
+        width: 152
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3aa426ed2c146d70800000000000000
+      internalID: 9035377735872326207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_4
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 5
+        width: 133
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac959b5c7b736520800000000000000
+      internalID: 2694132776140381358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_5
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 5
+        width: 142
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87bd4a6c44b5eaa90800000000000000
+      internalID: -7300797594972398728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_6
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 5
+        width: 142
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5a48475735efd90800000000000000
+      internalID: -7062115401739229743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_7
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 5
+        width: 133
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec084d8cf659ef460800000000000000
+      internalID: 7277418355220578510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_8
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 5
+        width: 152
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d4f419b16285120800000000000000
+      internalID: 2402712301046025493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_9
+      rect:
+        serializedVersion: 2
+        x: 2931
+        y: 5
+        width: 133
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306c946cabef91f10800000000000000
+      internalID: 2241102367737628163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_10
+      rect:
+        serializedVersion: 2
+        x: 3243
+        y: 5
+        width: 142
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0d0c26cfba3aea0800000000000000
+      internalID: -5862653189429341985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_11
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 5
+        width: 142
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e403b9a1cd60f830800000000000000
+      internalID: 4102899939077719264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_12
+      rect:
+        serializedVersion: 2
+        x: 3883
+        y: 5
+        width: 152
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10e1be9ae5f668e0800000000000000
+      internalID: -1700401421252173798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_13
+      rect:
+        serializedVersion: 2
+        x: 4195
+        y: 5
+        width: 133
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1138d23ef5cd53b10800000000000000
+      internalID: 1960715517181133585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_14
+      rect:
+        serializedVersion: 2
+        x: 4507
+        y: 5
+        width: 142
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726b16fc6b30fca30800000000000000
+      internalID: 4237609858077144615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_15
+      rect:
+        serializedVersion: 2
+        x: 4823
+        y: 5
+        width: 142
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ce1e645b79f1dd0800000000000000
+      internalID: -2513123262215361526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_16
+      rect:
+        serializedVersion: 2
+        x: 5143
+        y: 5
+        width: 133
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc86b5c2693c0a5a0800000000000000
+      internalID: -6511990011421038389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_17
+      rect:
+        serializedVersion: 2
+        x: 5463
+        y: 5
+        width: 152
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1163cd731226060800000000000000
+      internalID: 6945150099160175098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_18
+      rect:
+        serializedVersion: 2
+        x: 5775
+        y: 5
+        width: 133
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630ea280efc9c3070800000000000000
+      internalID: 8087511645723222070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrocutadot_19
+      rect:
+        serializedVersion: 2
+        x: 6087
+        y: 5
+        width: 142
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c02d2e0fabb9bef0800000000000000
+      internalID: -91835956852875067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      electrocutadot_0: -3886762353706890305
+      electrocutadot_1: -6350297167245502642
+      electrocutadot_10: -5862653189429341985
+      electrocutadot_11: 4102899939077719264
+      electrocutadot_12: -1700401421252173798
+      electrocutadot_13: 1960715517181133585
+      electrocutadot_14: 4237609858077144615
+      electrocutadot_15: -2513123262215361526
+      electrocutadot_16: -6511990011421038389
+      electrocutadot_17: 6945150099160175098
+      electrocutadot_18: 8087511645723222070
+      electrocutadot_19: -91835956852875067
+      electrocutadot_2: -8502017498308098974
+      electrocutadot_3: 9035377735872326207
+      electrocutadot_4: 2694132776140381358
+      electrocutadot_5: -7300797594972398728
+      electrocutadot_6: -7062115401739229743
+      electrocutadot_7: 7277418355220578510
+      electrocutadot_8: 2402712301046025493
+      electrocutadot_9: 2241102367737628163
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
