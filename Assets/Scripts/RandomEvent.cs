@@ -17,8 +17,10 @@ public class RandomEvent : MonoBehaviour
     private bool necesitaLimpieza;
     private Image barraVidaImage;
 
+    private PlayerController playerController;
     void Start()
     {
+        playerController = GetComponent<PlayerController>();
         GameObject barraVidaObj = GameObject.FindWithTag("barraVida");
         if (barraVidaObj != null)
         {
@@ -54,8 +56,8 @@ public class RandomEvent : MonoBehaviour
 
             if (contadorIncomodidad >= tiempoLimiteLimpieza)
             {
-                DañoPorNoLimpiar();
                 contadorIncomodidad = 0f;
+                playerController.DañoPorNoLimpiar();
             }
         }
     }
@@ -68,20 +70,7 @@ public class RandomEvent : MonoBehaviour
         Debug.Log("¡El bebé se ha cagado! Necesita limpieza");
     }
 
-    public void DañoPorNoLimpiar()
-    {
-        if (barraVidaImage != null)
-        {
-            barraVidaImage.fillAmount -= danioPorCiclo;
-            Debug.Log($"¡Daño recibido! Vida actual: {barraVidaImage.fillAmount * 100}%");
-            
-            if (barraVidaImage.fillAmount <= 0)
-            {
-                Debug.Log("¡El bebé ha muerto por falta de cuidados!");
-                // Aquí puedes añadir lógica de game over
-            }
-        }
-    }
+    
 
     public void LimpiarBebe()
     {

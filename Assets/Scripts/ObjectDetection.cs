@@ -6,10 +6,12 @@ public class ObjectDetection : MonoBehaviour
     public Animator animator;
 
     public RandomEvent randomEvent;// Asigna esto desde el Inspector de Unity
+    public PlayerController playerController;
 
     void Start()
     {
-         randomEvent = FindFirstObjectByType<RandomEvent>();
+        playerController = GetComponent<PlayerController>();
+        randomEvent = FindFirstObjectByType<RandomEvent>();
         panelDialogEnchufe.SetActive(false);
     }
 
@@ -37,7 +39,7 @@ public class ObjectDetection : MonoBehaviour
         if (panelDialogEnchufe.activeSelf && Input.GetKey(KeyCode.LeftControl))
         {
             animator.SetBool("isElectrocuted", true);
-            randomEvent.DañoPorNoLimpiar();
+            playerController.ReceiveDamage(0.5f);
         }
     }
 
