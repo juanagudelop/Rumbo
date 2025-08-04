@@ -9,6 +9,9 @@ TagManager:
   - Piso
   - barraVida
   - enchufe
+  - barraTiempo
+  - barraCaca
+  - puerta
   layers:
   - Default
   - TransparentFX

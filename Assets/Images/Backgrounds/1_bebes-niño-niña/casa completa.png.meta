@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -118,7 +118,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 9990
+        width: 1998
         height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -134,11 +134,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: casa completa_1
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 0
+        width: 1998
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71f058fb5b7be945be89f7f2bbabb2e
+      internalID: 1131796305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa completa_2
+      rect:
+        serializedVersion: 2
+        x: 3996
+        y: 0
+        width: 1998
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d439810ab4c064d899f962fa3f1fb8
+      internalID: 596336218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa completa_3
+      rect:
+        serializedVersion: 2
+        x: 5994
+        y: 0
+        width: 1998
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebb9a81187754146b4d93d26a79c779
+      internalID: 1851134948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casa completa_4
+      rect:
+        serializedVersion: 2
+        x: 7992
+        y: 0
+        width: 1998
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d967472aaf9ac5d47b9da81c3ab659b0
+      internalID: -1403987213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3839b5f2bba440349ac90a3d298c34c9
     internalID: 0
     vertices: []
     indices: 
@@ -149,6 +237,10 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       casa completa_0: -8793840675936349420
+      casa completa_1: 1131796305
+      casa completa_2: 596336218
+      casa completa_3: 1851134948
+      casa completa_4: -1403987213
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

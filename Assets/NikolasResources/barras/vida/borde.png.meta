@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 26303b4679761704ab8cd628ed7a749e
+guid: 59903ccf3b66b564583fc7a36a4ca7e0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5111368081018862155
-    second: fuera de la casa_0
+      213: -1646093656837719404
+    second: borde_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fuera de la casa_0
+      name: borde_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2316
-        height: 1000
+        x: 29
+        y: 39
+        width: 272
+        height: 252
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,96 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b5c99ebfc5c019b0800000000000000
-      internalID: -5111368081018862155
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fuera de la casa_1
-      rect:
-        serializedVersion: 2
-        x: 2316
-        y: 0
-        width: 2316
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82ddd1e3e108c174080a76f622e13e53
-      internalID: 43909156
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fuera de la casa_2
-      rect:
-        serializedVersion: 2
-        x: 4632
-        y: 0
-        width: 2316
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27502f5563835524db7095daf691dcc4
-      internalID: -1931140526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fuera de la casa_3
-      rect:
-        serializedVersion: 2
-        x: 6948
-        y: 0
-        width: 2316
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4be17f76346646e4099398b0b95cd43e
-      internalID: -1727154124
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fuera de la casa_4
-      rect:
-        serializedVersion: 2
-        x: 9264
-        y: 0
-        width: 2316
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7d9d0a9f9294dd42ad83db05256e63c
-      internalID: 24349721
+      spriteID: 49af92d5a86e729e0800000000000000
+      internalID: -1646093656837719404
       vertices: []
       indices: 
       edges: []
@@ -226,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f02d188f58ffa4c44815d2ea0639eb64
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -235,12 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      fuera de la casa_0: -5111368081018862155
-      fuera de la casa_1: 43909156
-      fuera de la casa_2: -1931140526
-      fuera de la casa_3: -1727154124
-      fuera de la casa_4: 24349721
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
