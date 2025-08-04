@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Muerte.unity
     guid: 59190f5a53e452745807903d6c029651
+  - enabled: 1
+    path: "Assets/Scenes/Etapa-Ni\xF1o.unity"
+    guid: fc90c29ff08aeb14f8eca59afe01ed2c
+  - enabled: 1
+    path: Assets/Scenes/eventos/evento-raptado.unity
+    guid: ba4b9101a43a34b448f3d1f06b379718
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
