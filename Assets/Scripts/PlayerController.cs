@@ -1,9 +1,7 @@
-using System;
-using NUnit.Framework.Constraints;
-using Unity.VisualScripting;
-using UnityEngine;
-using UnityEngine.Video;
 
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -19,8 +17,24 @@ public class PlayerController : MonoBehaviour
     Vector2 PosicionInicio;
     private float VidaMax;
 
+    public float danioPorCiclo = 0.1f;
+
+    private Image barraVidaImage;
+
+    private bool animationDead = false;
+
     void Start()
     {
+        GameObject barraVidaObj = GameObject.FindWithTag("barraVida");
+        if (barraVidaObj != null)
+        {
+            barraVidaImage = barraVidaObj.GetComponent<Image>();
+            if (barraVidaImage == null)
+            {
+                Debug.LogError("El objeto con tag 'barraVida' no tiene componente Image");
+            }
+        }
+        else{Debug.LogError("No se encontró objeto con tag 'barraVida'");}
         rb = GetComponent<Rigidbody2D>();
         VidaMax = health;
     }
@@ -76,14 +90,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void ReceiveDamage(Vector2 direction, float damage)
+    public void ReceiveDamage(/*Vector2 direction,*/ float damage)
     {
         if (!isReceivingDamage)
         {
             isReceivingDamage = true;
-            health -= damage; // Reduce la salud del jugador y esta variable es el dividendo de la vida maxima que seria la vida maxima.
-            Vector2 rebote = new Vector2(direction.x, 1).normalized;
-            rb.AddForce(rebote * 5, ForceMode2D.Impulse);
+            barraVidaImage.fillAmount -= damage; // Reduce la salud del jugador y esta variable es el dividendo de la vida maxima que seria la vida maxima.
+            // Vector2 rebote = new Vector2(direction.x, 1).normalized;
+            // rb.AddForce(rebote * 5, ForceMode2D.Impulse);
 
             if (health <= 0)
             {
@@ -96,18 +110,62 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void Daño()
+    {
+        if (barraVidaImage != null)
+        {
+            barraVidaImage.fillAmount -= danioPorCiclo;
+            Debug.Log($"¡Daño recibido! Vida actual: {barraVidaImage.fillAmount * 100}%");
+
+            if (barraVidaImage.fillAmount <= 0)
+            {
+                Debug.Log("¡El bebé ha muerto por falta de cuidados!");
+                animator.SetBool("isDead", true);
+                // playerController.dead();
+                // Aquí puedes añadir lógica de game over
+            }
+        }
+    }
+    public void DañoPorNoLimpiar()
+    {
+        if (barraVidaImage != null)
+        {
+            barraVidaImage.fillAmount -= danioPorCiclo;
+            Debug.Log($"¡Daño recibido! Vida actual: {barraVidaImage.fillAmount * 100}%");
+            if (barraVidaImage.fillAmount <= 0)
+            {
+                dead();
+            }
+            
+        }   
+    }
+
     public void dead()
     {
-        Debug.Log("Player has died");
-        animator.SetBool("isDead", true);
+        if (barraVidaImage.fillAmount <= 0)
+        {
+            animator.SetBool("isDead", true);
+            if (animationDead == true)
+            {
+                Debug.Log("¡El bebé ha muerto por falta de cuidados!");
+                SceneManager.LoadScene("Muerte"); 
+            }
+
+            
+        }
+        
     }
 
     public void DeactivateDamage()
     {
         isReceivingDamage = false;
-
+        animator.SetBool("isElectrocuted", false);
     }
-
+    public void ModificateState()
+    {
+        animationDead = true;
+        
+    }
     public void Respawn()
     {
         rb.position = PosicionInicio;
